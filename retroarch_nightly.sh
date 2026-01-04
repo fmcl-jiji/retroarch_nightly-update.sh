@@ -54,7 +54,7 @@ if [[ -f "$VERSION_FILE" ]]; then
     fi
 fi
 
-log_warn "New update detected: $LATEST_FILENAME"
+log_warn "New update detected"
 
 # 3. Optimized Download & Clean Extraction
 # Use -C - to resume if a previous download was interrupted
